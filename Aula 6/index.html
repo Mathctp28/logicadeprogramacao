@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+</head>
+<body>
+    <style>
+
+        .box{
+            width: 300px;
+            height: 150px;
+            text-align: center;
+            font-size: 18px;
+            background-color: rgb(0, 174, 255);
+            border-radius: 15px;
+            margin: auto;
+        }
+    #box1 {
+        border: 2px solid black;
+        box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.24);
+
+    }
+    #box2{
+        border-color: black;
+        border-style: solid;
+        background-color: aquamarine;
+        box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.24) inset;
+    }
+
+    #box3{
+        border-top: 2px solid red;
+        border-left: 3px solid green;
+        border-right: 4px dashed black;
+        border-bottom: 5px solid yellow;
+        border-radius: 5px 10px 15px 20px;
+        box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.24);
+    }
+
+    </style>
+
+
+
+    <h1>Box model</h1>
+  <div class="box" id="box1">
+    Essa é a primeira caixa
+ </div>
+ <p></p>  
+ <div class="box" id="box2">
+    Essa é a Segunda caixa
+</div>
+    <p></p>   
+ <div class="box" id="box3">
+    Essa é a Terceira caixa
+ </div>
+ <p></p>
+  
+
+
+<div class="pai">
+
+    <h1 class="filho"> Trabalhando com Box Model</h1>
+
+    <div class="filho" id="filho1"> Primeira caixa</div>
+
+
+    <div class="filho" id="filho2"> Segunda caixa</div>
+
+
+    <div class="filho" id="filho3"> Terceira caixa</div>
+
+</div>
+
+
+</body>
+</html>
